@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dondylion.todo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>TodoApp</name>
+<widget id="com.dondylion.crdtest" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>crd-test</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -15,11 +15,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <platform name="android">
-        <splash src="img/loading.png" density="port-hdpi"/>
-        <preference name="AutoHideSplashScreen" value="true" />
-        <preference name="SplashScreenDelay" value="5000" />
-    </platform>
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
